@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <header id="header" class="animate">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#men">Heren</a></li>
+        <li><a href="#women">Dames</a></li>
+        <li><a href="#accessories">Accessoires</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero-sectie -->
+  <section id="home" class="hero animate">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 id="heroTitle"></h1>
+      <p>Mijn foto's</p>
+      <a href="#men" class="btn">Leer over mezelf</a>
+    </div>
+  </section>
+
+  <!-- Sectie: Heren -->
+  <section id="men" class="animate section">
+    <h2>Muziek</h2>
+    <div class="product-grid">
+      <div class="product animate">
+        <img src="images/men1.jpg" alt="Heren Product 1">
+        <h3>Espresso remix</h3>
+        <p>&euro;5,99</p>
+      </div>
+      <div class="product animate">
+        <img src="images/men2.jpg" alt="Heren Product 2">
+        <h3>BAND4BAND remix</h3>
+        <p>&euro;5,99</p>
+      </div>
+      <div class="product animate">
+        <img src="images/men3.jpg" alt="Heren Product 3">
+        <h3>una noche en medellin remix</h3>
+        <p>&euro;5,99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectie: Dames -->
+  <section id="women" class="animate section">
+    <h2>Dames</h2>
+    <div class="product-grid">
+      <div class="product animate">
+        <img src="images/women1.jpg" alt="Dames Product 1">
+        <h3>Elegante Jurk</h3>
+        <p>&euro;129,99</p>
+      </div>
+      <div class="product animate">
+        <img src="images/women2.jpg" alt="Dames Product 2">
+        <h3>Trendy Blouse</h3>
+        <p>&euro;49,99</p>
+      </div>
+      <div class="product animate">
+        <img src="images/women3.jpg" alt="Dames Product 3">
+        <h3>Modieuze Rok</h3>
+        <p>&euro;69,99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectie: Accessoires -->
+  <section id="accessories" class="animate section">
+    <h2>Accessoires</h2>
+    <div class="product-grid">
+      <div class="product animate">
+        <img src="images/accessory1.jpg" alt="Accessoire 1">
+        <h3>Designer Sjaal</h3>
+        <p>&euro;19,99</p>
+      </div>
+      <div class="product animate">
+        <img src="images/accessory2.jpg" alt="Accessoire 2">
+        <h3>Luxueus Horloge</h3>
+        <p>&euro;79,99</p>
+      </div>
+      <div class="product animate">
+        <img src="images/accessory3.jpg" alt="Accessoire 3">
+        <h3>Stijlvolle Riem</h3>
+        <p>&euro;29,99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Sectie -->
+  <section id="gallery" class="animate section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/random/800x600?sig=1" alt="Stock Image 1">
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/random/800x600?sig=2" alt="Stock Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/random/800x600?sig=3" alt="Stock Image 3">
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/random/800x600?sig=4" alt="Stock Image 4">
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/random/800x600?sig=5" alt="Stock Image 5">
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/random/800x600?sig=6" alt="Stock Image 6">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectie: Contact -->
+  <section id="contact" class="animate section">
+    <h2>Contact</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Naam" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Bericht" required></textarea>
+      <button type="submit" class="btn">Verstuur</button>
+    </form>
+  </section>
+
+  <footer class="animate">
+    <p>&copy; 2025 Exclusieve Kleding. Alle rechten voorbehouden.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
